@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TYNTRA"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TYNTRA">
+
+        <!-- Splash Screen - Launcher Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+
+        <!-- Home Activity -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+
+        <!-- Add Workout Activity -->
+        <activity
+            android:name=".AddWorkoutActivity"
+            android:exported="false" />
+
+
+        <!-- Workout History Activity -->
+        <activity
+            android:name=".WorkoutHistoryActivity"
+            android:exported="false" />
+
+
+        <!-- Edit Workout Activity -->
+        <activity
+            android:name=".EditWorkoutActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

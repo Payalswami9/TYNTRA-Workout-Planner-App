@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "59294708164",
+    "project_id": "tyntra-26947",
+    "storage_bucket": "tyntra-26947.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59294708164:android:13e2596968478adfc53491",
+        "android_client_info": {
+          "package_name": "com.example.tyntra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2WgOtmwMNcvAEVDCZePRkZHJZXxiQT28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
